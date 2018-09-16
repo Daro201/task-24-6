@@ -1,0 +1,25 @@
+
+.Player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 480px;
+  margin-bottom: 5px;
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 3px 0;
+  background-color: #C0C0C0;
+  color: white;
+}
+.Player__name {
+  flex-basis: 40%;
+}
+.Player__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
